@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: msaccounts
+  data:
+    mongodb:
+      uri: ${MONGODB_URL}
+      database: ${MONGODB_DATABASE}
+external:
+  credits:
+    url: ${MS_CREDITS_URL}

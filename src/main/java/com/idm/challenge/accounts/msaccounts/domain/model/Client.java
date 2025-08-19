@@ -2,11 +2,12 @@ package com.idm.challenge.accounts.msaccounts.domain.model;
 
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Builder;
 import lombok.Data;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
-@Document("clients")
+@Builder
 public class Client {
 
   @JsonProperty("id")

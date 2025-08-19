@@ -119,7 +119,6 @@ public class AccountServiceImpl implements AccountService {
                   + "that the client owns a credit card")))
           .flatMap(cr -> Mono.just(account));
     } else {
-      System.out.println(">>checkIfRequiresCreditCard> ELSE ");
       return Mono.just(account);
     }
   }

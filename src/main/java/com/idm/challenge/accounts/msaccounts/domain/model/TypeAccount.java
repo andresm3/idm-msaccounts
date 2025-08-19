@@ -3,6 +3,7 @@ package com.idm.challenge.accounts.msaccounts.domain.model;
 import com.idm.challenge.accounts.msaccounts.domain.dto.TypeAccountRequest;
 import java.math.BigDecimal;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.mongodb.core.mapping.Field;
@@ -11,6 +12,7 @@ import org.springframework.data.mongodb.core.mapping.FieldType;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class TypeAccount {
 
   private int option;

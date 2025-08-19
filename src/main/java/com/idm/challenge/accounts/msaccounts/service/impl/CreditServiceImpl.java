@@ -2,7 +2,6 @@ package com.idm.challenge.accounts.msaccounts.service.impl;
 
 import com.idm.challenge.accounts.msaccounts.domain.dto.CreditResponse;
 import com.idm.challenge.accounts.msaccounts.service.CreditService;
-import java.math.BigDecimal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
